@@ -1,12 +1,12 @@
 # Test - UI-Basics
 
 ## Test Instructions
-* In the [test folder](./test) in this repository, there are both html and css files as well as an images folder. These files contain the foundations of a computer store landing page! 
+* In the test folder in this repository, there are both html and css files as well as an images folder. These files contain the foundations of a computer store landing page! 
 * The task is to follow the instructions below to complete the landing page.
 * Good luck! 
 
 ### Images 
-* Add the [hero.jpg](./test/images/hero.jpg) as a background image in the header of the page. The background image should cover the whole header, it should not repeat itself and the image should be at the center of the header.
+* Add the [hero.jpg](./solution/images/hero.jpg) as a background image in the header of the page. The background image should cover the whole header, it should not repeat itself and the image should be at the center of the header.
 
 ### Positioning 
 * Change the position of the header to fixed. The header should be aligned at the top of the page and it should not cover any content of the website.
@@ -32,6 +32,9 @@
 |**Color**|Black|White|Silver|
 |**RAM**|4GB|16GB|8GB|
 
+#### reference table
+![desktop-view](./images/reference-image-desktop.png)
+![mobile-view](./images/reference-image-mobile.png)
 ### Forms 
 * In the "Contact Form" section, create a form with an input field for the user's name, an input field for the user's email, textarea for a message and submit button. The submit button should have a class of `submit-btn`  The form should be placed beneath the `h2` element. Create `label` elements for each input field and textarea e.g. "Tell us who you are", "Tell us how to contact you", "How can we help you?".
 
@@ -40,3 +43,4 @@
 
 ### Footer Links 
 * In the "Footer Links" section, add an unordered list beneath the `h3` element. The unordered list should have a class of `icon-list`. Inside the unordered list, add three list items. Each list item should have a class of `icon`. Every list item should have an anchor link nested inside. Only add an "#" symbol to the `href`. Find three social media icons to place inside the anchor links, e.g. instagram, linked in, twitter.
+
